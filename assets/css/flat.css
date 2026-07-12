@@ -1,0 +1,23 @@
+.gallery{
+    width: 100%;
+    padding: 4rem;
+    gap: 40px;
+
+    .gal-top{
+        text-align: center;
+
+        h2{ font-size: 2.75rem; }
+    }
+
+    .gal-grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+
+        .gal-img{
+            height: 260px;
+            background: #ddd;
+            box-shadow: var(--shad);
+        }
+    }
+}
